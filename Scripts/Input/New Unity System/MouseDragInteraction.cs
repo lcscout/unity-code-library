@@ -8,19 +8,14 @@ using UnityEditor;
 #endif
 
 namespace z {
-	/// <summary>
-	///     Mouse drag interaction.
-	/// </summary>
 #if UNITY_EDITOR
 	[InitializeOnLoad]
 #endif
+	// Interaction to handle a mouse drag and them read it's value with the MouseDragComposite
 	public class MouseDragInteraction : IInputInteraction {
-		static MouseDragInteraction() {
-			InputSystem.RegisterInteraction<MouseDragInteraction>();
-		}
+		static MouseDragInteraction() => InputSystem.RegisterInteraction<MouseDragInteraction>();
 
-		public void Reset() {
-		}
+		public void Reset() { }
 
 		public void Process(ref InputInteractionContext context) {
 			if (context.timerHasExpired) {
@@ -60,7 +55,6 @@ namespace z {
 		}
 
 		[RuntimeInitializeOnLoadMethod]
-		private static void Init() {
-		}
+		private static void Init() { }
 	}
 }
