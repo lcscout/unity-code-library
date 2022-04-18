@@ -1,5 +1,5 @@
 <p align="center">
-	<img alt="Code Library Icon" src='code-library-icon.png' style="width: 128px;"/>
+	<img alt="Code Library Icon" src='code-library-banner.png'/>
 </p>
 <h3 align="center">
 	My code library, where I hold a bunch of resources (mostly related to Unity) for quick access. 😉
