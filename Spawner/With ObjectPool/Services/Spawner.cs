@@ -25,9 +25,9 @@ public class Spawner : MonoBehaviour {
 
 	private void Update() {
 		if (/* condition is */ true) {
-			timer -= Time.deltaTime;
-			if (timer < 0) {
-				timer = repeatRate;
+			_timer -= Time.deltaTime;
+			if (_timer < 0) {
+				_timer = _repeatRate;
 				SpawnBaseClass();
 			}
 		}
