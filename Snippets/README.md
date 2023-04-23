@@ -2,8 +2,21 @@
 
 Here we have some small pieces of code that don't need a .md file for themselves
 
+- Initializing a github repository
+```
+echo "# procedural-animation" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:lcscout/procedural-animation.git
+git push -u origin main
+```
+
 - Fix new location - when you rename a repo on github
-	- `git remote set-url origin <new link, git@...>`
+```
+git remote set-url origin <new link, git@...>
+```
 
 - Remap one range to another
 ```
