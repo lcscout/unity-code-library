@@ -4,10 +4,10 @@ Here we have some small pieces of code that don't need a .md file for themselves
 
 - Initializing a github repository
 ```
-echo "# procedural-animation" >> README.md
+echo "# Init" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "init"
 git branch -M main
 git remote add origin git@github.com:[usename]/[repository].git
 git push -u origin main
