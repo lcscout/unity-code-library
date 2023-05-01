@@ -9,7 +9,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:lcscout/procedural-animation.git
+git remote add origin git@github.com:[usename]/[repository].git
 git push -u origin main
 ```
 
