@@ -9,7 +9,7 @@
 - [Removing Git LFS from a Repository](https://github.com/lcscout/unity-code-library/blob/main/Tutorials/remove-lfs-from-repo.md)
 
 ## 📋 Notes
-The notes I take from books and articles I'm currently reading
+The notes I take from books and articles I'm currently reading:
 
 ### 📕 Books
 - [Game Programming Patterns](https://coutinho.codes/portfolio/notes/gpp)
